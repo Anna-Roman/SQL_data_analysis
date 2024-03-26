@@ -1,9 +1,6 @@
 /*
-Question: What skills are required for the top-paying data engineer jobs?
-- Use the top 10 highest-paying Data Engineer job postings from first query
-- Add the specific skills required for roles
+Question: What skills are required for data engineer jobs based in Finland?
 */
-
 WITH top_paying_jobs AS (
 
     SELECT
@@ -17,7 +14,7 @@ WITH top_paying_jobs AS (
     LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
     WHERE
         job_title_short = 'Data Engineer' AND
-        (job_location = 'Anywhere' OR job_location = 'Finland') AND
+        job_location = 'Finland' AND
         salary_year_avg IS NOT NULL
     ORDER BY
         salary_year_avg DESC
@@ -32,7 +29,8 @@ INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY 
     salary_year_avg DESC
 
-/* According to this data set the most in demand skill for Data Engineers is python.
-Python was mentioned 7 times. 
-Next one is Spark, it was mentioned 5 times. 
-Other skills show up less frequently*/
+/*
+There are only 3 job postings for Data Engineer located in Finland.
+Skills like kafka, kubernetes, python, snowflake, spark were mentioned in 2 out of the three postings.
+Other skills like azure, databricks, go, power bi, sql, terraform were mentioned once.
+*/
