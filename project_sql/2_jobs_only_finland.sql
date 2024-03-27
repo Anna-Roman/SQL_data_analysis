@@ -34,3 +34,4 @@ There are only 3 job postings for Data Engineer located in Finland.
 Skills like kafka, kubernetes, python, snowflake, spark were mentioned in 2 out of the three postings.
 Other skills like azure, databricks, go, power bi, sql, terraform were mentioned once.
 */
+
