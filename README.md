@@ -109,7 +109,7 @@ Skills for the top 10 highest paying Data Engineer jobs:
 - Next one is Spark, it was mentioned 5 times. 
 - Other skills like SQL or Pandas show up less frequently.    
 
-![Skills for the highest paying Data Engineer jobs](pic\data_engineer_skills.png)
+![Skills for the highest paying Data Engineer jobs](pic/data_engineer_skills.png)
   
 Skills for the top-paying Data Analyst jobs:
 ```sql
@@ -148,7 +148,7 @@ Skills for the top 10 highest paying Data Analyst jobs in 2023:
 - Python follows closely with a bold count of 7.
 - Tableau is also highly sought after, with a bold count of 6.    
 
-![Skills for the highest paying Data Analyst jobs](pic\data_analyst_skills.png)
+![Skills for the highest paying Data Analyst jobs](pic/data_analyst_skills.png)
 
 I also wanted to look at the jobs located in Finland.  
 ```sql
@@ -184,7 +184,7 @@ There are only 3 job postings for Data Engineer located in Finland.
 Skills like kafka, kubernetes, python, snowflake, spark were mentioned in 2 out of the three postings.
 Other skills like azure, databricks, go, power bi, sql, terraform were mentioned once.  
 
-![Skills for jobs located in Finland](pic\skills_fi.png)
+![Skills for jobs located in Finland](pic/skills_fi.png)
 
 ### 3. In-Demand Skills for Data Engineer and Data Analysts   
 These queries helped identify the skills most frequently requested in job postings, directing focus to areas with high demand.  
